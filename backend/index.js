@@ -6,8 +6,8 @@ const Routerik = require('./router');
 const PORT = 5000 || process.env.PORT;
 //load static files scss,imgs...
 app.use(express.json());
-app.use(express.static('../frontend/static')); 
-app.use(express.static('../frontend')); 
+app.use(express.static('./frontend/static')); 
+app.use(express.static('./frontend')); 
 //use router
 app.use(Routerik);
 app.listen(PORT,()=>console.log("Server is up and running on port",PORT,"..."));

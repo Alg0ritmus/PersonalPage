@@ -5,7 +5,7 @@ var path = require('path');
 
 //DB
 router.get("/",(req,res)=>{
-    res.sendFile(path.resolve('../frontend/static/index.html'));
+    res.sendFile(path.resolve('./frontend/static/index.html'));
 })
 
 router.get("/api/",async(req,res)=>{

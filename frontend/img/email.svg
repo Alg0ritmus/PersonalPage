@@ -1,0 +1,20 @@
+<svg id="email" xmlns="http://www.w3.org/2000/svg" width="960" height="522" viewBox="0 0 960 522">
+  <rect id="Rectangle_9" data-name="Rectangle 9" width="960" height="522" fill="#717171"/>
+  <g id="Rectangle_8" data-name="Rectangle 8" transform="translate(0 62)" fill="#dbdbdb" stroke="#707070" stroke-width="1">
+    <rect width="960" height="460" stroke="none"/>
+    <rect x="0.5" y="0.5" width="959" height="459" fill="none"/>
+  </g>
+  <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="12.5" cy="12" rx="12.5" ry="12" transform="translate(58 22)" fill="#565555"/>
+  <path id="Path_10" data-name="Path 10" d="M12.137,0A12.137,12.137,0,1,1,0,12.137,12.137,12.137,0,0,1,12.137,0Z" transform="translate(90.621 21.846)" fill="#acacac"/>
+  <circle id="Ellipse_4" data-name="Ellipse 4" cx="12" cy="12" r="12" transform="translate(123 22)" fill="#cfcdcd"/>
+  <line id="Line_35" data-name="Line 35" x1="6.473" y2="5.664" transform="translate(928.461 23.06)" fill="none" stroke="#dedede" stroke-width="4"/>
+  <line id="Line_36" data-name="Line 36" x1="6.473" y2="5.664" transform="translate(918.752 31.96)" fill="none" stroke="#dedede" stroke-width="4"/>
+  <g id="Polygon_8" data-name="Polygon 8" transform="translate(937.193 15.131) rotate(49)" fill="#dedede">
+    <path d="M 8.775144577026367 6.782042980194092 L 0.9342522025108337 6.782042980194092 L 4.854698181152344 0.9013823270797729 L 8.775144577026367 6.782042980194092 Z" stroke="none"/>
+    <path d="M 4.854698181152344 1.802776336669922 L 1.868516445159912 6.28204345703125 L 7.840879917144775 6.28204345703125 L 4.854698181152344 1.802776336669922 M 4.854698181152344 3.337860107421875e-06 L 9.70939826965332 7.282042980194092 L -1.9073486328125e-06 7.282042980194092 L 4.854698181152344 3.337860107421875e-06 Z" stroke="none" fill="#dedede"/>
+  </g>
+  <g id="Polygon_9" data-name="Polygon 9" transform="translate(917.278 45.044) rotate(-130)" fill="#dedede">
+    <path d="M 8.775144577026367 6.782042980194092 L 0.9342522025108337 6.782042980194092 L 4.854698181152344 0.9013823270797729 L 8.775144577026367 6.782042980194092 Z" stroke="none"/>
+    <path d="M 4.854698181152344 1.802776336669922 L 1.868516445159912 6.28204345703125 L 7.840879917144775 6.28204345703125 L 4.854698181152344 1.802776336669922 M 4.854698181152344 3.337860107421875e-06 L 9.70939826965332 7.282042980194092 L -1.9073486328125e-06 7.282042980194092 L 4.854698181152344 3.337860107421875e-06 Z" stroke="none" fill="#dedede"/>
+  </g>
+</svg>

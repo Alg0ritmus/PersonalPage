@@ -1,0 +1,265 @@
+/* 
+TIPS & TRICKS
+what's lower gets higher priority
+ */
+
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
+
+/* variables */
+:root {
+    --greyBG: #EBEBEB;
+    --poppins:'Poppins', sans-serif;
+    --greyTXT: #7A7A7A;
+    --hero-headding-size:4em;
+    --headding-size:3.2em;
+    --section-text-size:1.7em;
+    --textik: #fff;
+  }
+
+
+/* start of desktop styles */
+
+@media screen and (max-width: 991px) {
+/* start of large tablet styles */
+
+}
+
+@media screen and (max-width: 767px) {
+/* start of medium tablet styles */
+
+}
+
+@media screen and (max-width: 479px) {
+/* start of phone styles */
+
+}
+
+/* border & padding included in element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+body{
+    background-color: var(--greyBG);
+}
+/* GRID 7-cols */
+/* 
++---------------------------------------+
+|1/7 | 1/7 | 1/7 | 1/7 | 1/7 | 1/7 | 1/7|
++---------------------------------------+ 
+*/
+
+.cols-1{
+    width: calc(100%/7);
+}
+.cols-2{
+    width: calc(200%/7);
+}
+.cols-3{
+    width: calc(300%/7);
+}
+.cols-4{
+    width: calc(400%/7);
+}
+.cols-5{
+    width: calc(500%/7);
+}
+.cols-6{
+    width: calc(600%/7);
+}
+.cols-7{
+    width: 100%;
+}
+
+
+/* init value for all child-elements */
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: var(--poppins);
+}
+
+.hero-section{
+    width: 100%;
+    height: 100%;
+    background-color:var(--greyBG);  
+    margin: 0; 
+}
+
+.section-wrapper{
+    position: relative;
+    width: calc(500%/7);
+    height: 100%;
+    margin: 0% auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 10% 0%;
+}
+
+.left-side{
+    display: flex; 
+    flex-basis: calc(45%);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+.left-side > h1{
+    font-weight: 900;
+    font-size: var(--hero-headding-size);
+    margin-bottom: 0.8em;
+}
+.left-side > .hero-section-text{
+    font-size: var(--section-text-size);
+    color: var(--greyTXT);
+    position: relative;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: 2.3em;
+}
+
+.left-side > .hero-section-text::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 0.15em;
+    height: 100%;
+    background-color: black;
+}
+
+.left-side > a{
+    width: 10em;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 14px;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.right-side{
+    position: relative;
+    flex-basis: calc(45%);  
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-side > img {
+    width: 100%;
+    max-width: 450px;
+    position:absolute;
+    top:50%; 
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.mid-side{
+    height: 100%;
+    flex-basis: calc(10%);  
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.mid-arrow-side{
+    flex-basis: calc(100%);  
+    justify-content: center;
+    flex-direction: column;    
+}
+
+.mid-arrow-side > img{
+    width: 5%;
+}
+
+
+img{
+    display:block; 
+    margin:auto;
+}
+
+
+.random{
+    width: 32%;
+    height: 100%;
+    background-color: #D1D1D1;
+    display: block;
+    position: absolute;
+    left: calc(100%/9);
+}
+
+.section-text{
+    font-size: 1.3em;
+    color: var(--greyTXT);
+    position: relative;
+    font-weight: 400;
+    width: 80%;
+    margin-bottom: 2.3em;
+    margin-top: 1em;
+}
+
+
+.section-headding{
+    position: relative;
+    font-size: var(--headding-size) !important;
+}
+
+.section-headding::before{
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 0.09em;
+    height: 100%;
+    background-color: black;
+}
+
+.fa{
+    margin-top: 1em;
+    width: 2em;
+}
+
+.black-btn{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 24px;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: center;
+    border: black 0.1em solid;
+}
+
+.white-btn{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 24px;
+    font-weight: 900;
+    font-size: 1.2em;
+    text-align: center;
+    border: black 0.1em solid;
+    margin-left: 1em;
+}
+
+.project-section-dark{
+    background-color: var(--greyBG);
+}
+
+.classic-section{
+    width: 100%;
+    height: 100%;
+}

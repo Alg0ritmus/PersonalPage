@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="465.049" height="220.5" viewBox="0 0 465.049 220.5">
+  <g id="graph" transform="translate(-1078.5 -453.75)">
+    <line id="Line_4" data-name="Line 4" y2="216" transform="translate(1154.5 458.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_5" data-name="Line 5" x2="458" transform="translate(1078.5 640.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <path id="Path_1" data-name="Path 1" d="M1046.125,481.7c197.368-31.737,182.444,25.873,291.786,25.873s146.3-35.471,146.3-35.471" transform="translate(54 36.75)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_6" data-name="Line 6" y2="131" transform="translate(1209.5 509.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_7" data-name="Line 7" y2="100" transform="translate(1454.5 540.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <g id="Polygon_1" data-name="Polygon 1" transform="matrix(0.848, -0.53, 0.53, 0.848, 1529.451, 638.348)" fill="#707070">
+      <path d="M 10.10846900939941 8.5 L 0.8915305733680725 8.5 L 5.5 0.9588682055473328 L 10.10846900939941 8.5 Z" stroke="none"/>
+      <path d="M 5.5 1.917726516723633 L 1.783055305480957 8 L 9.216944694519043 8 L 5.5 1.917726516723633 M 5.5 0 L 11 9 L 0 9 L 5.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(1149 453.75)" fill="#707070">
+      <path d="M 10.10846900939941 8.5 L 0.8915305733680725 8.5 L 5.5 0.9588682055473328 L 10.10846900939941 8.5 Z" stroke="none"/>
+      <path d="M 5.5 1.917726516723633 L 1.783055305480957 8 L 9.216944694519043 8 L 5.5 1.917726516723633 M 5.5 0 L 11 9 L 0 9 L 5.5 0 Z" stroke="none" fill="#707070"/>
+    </g>
+    <text id="a" transform="translate(1205 660.75)" fill="#7a7a7a" font-size="15" font-family="SitkaSmall, Sitka Small"><tspan x="0" y="0">a</tspan></text>
+    <text id="b" transform="translate(1450 660.75)" fill="#7a7a7a" font-size="15" font-family="SitkaSmall, Sitka Small"><tspan x="0" y="0">b</tspan></text>
+    <text id="S" transform="translate(1320 613.75)" fill="#7a7a7a" font-size="32" font-family="SitkaSmall, Sitka Small"><tspan x="0" y="0">S</tspan></text>
+    <line id="Line_8" data-name="Line 8" x1="36" y2="31" transform="translate(1214.5 520.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_9" data-name="Line 9" x1="85" y2="78" transform="translate(1214.5 536.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_10" data-name="Line 10" x1="91" y2="85" transform="translate(1259.5 547.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_11" data-name="Line 11" x1="76.5" y2="82" transform="translate(1333 551.25)" fill="none" stroke="#707070" stroke-width="1"/>
+    <line id="Line_12" data-name="Line 12" x1="52" y2="55" transform="translate(1394.5 578.25)" fill="none" stroke="#707070" stroke-width="1"/>
+  </g>
+</svg>
